@@ -51,8 +51,8 @@ export PATH="$HOME/.composer/vendor/drush/drush:$PATH"
 
 # Syntax clear cache in Drupal 9
 ```
-drush cache-clear all --uri=<name_domain>
-example: drush cache-clear all --uri=ttvl.local
+drush cr --uri=<name_domain>
+example: drush cr--uri=ttvl.local
 ```
 Or clear cache for option
 ```
